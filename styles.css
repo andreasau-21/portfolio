@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background for a softer look */
+    color: #2b4d73; /* Tenuously blue text for better readability */
+}
+
+/* Header Styles */
+header {
+    background-color: #3a5e93; /* Dark blue for header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 10px;
+    font-size: 1.2em;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.section {
+    width: 100%;
+    max-width: 800px; /* Maximum width for readability */
+    margin: 20px; /* Space around sections */
+    padding: 20px;
+    border: 1px solid #2b4d73; /* Tenuously blue border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #e6f2ff; /* Light blue background for sections */
+}
+
+h2 {
+    font-size: 2em; /* Consistent size for section titles */
+    color: #3a5e93; /* Darker blue for main section headings */
+}
+
+h3 {
+    font-size: 1.5em; /* Subsection titles */
+    color: #2b4d73; /* Tenuously blue for subsections */
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0; /* Spacing between paragraphs */
+}
+
+ul {
+    margin: 10px 0; /* Margin for lists */
+    padding-left: 20px; /* Indentation for lists */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #3a5e93; /* Dark blue for footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
