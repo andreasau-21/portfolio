@@ -64,6 +64,14 @@ ul {
     padding-left: 20px; /* Indentation for lists */
 }
 
+/* Image Styles */
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures the image takes up full width */
+    margin: 0 auto; /* Center images */
+}
+
 /* Footer Styles */
 footer {
     background-color: #3a5e93; /* Dark blue for footer */
